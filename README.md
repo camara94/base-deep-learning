@@ -195,3 +195,7 @@ C'est pourquoi on calcule le **Gradient** (ou la **dérivée**) de la **Fonction
 * Alors que ça marche il faut que notre fonction soit convexe.
 
 ![perceptron](images/41.png)
+
+## Exercice
+
+![perceptron](images/42.png)
