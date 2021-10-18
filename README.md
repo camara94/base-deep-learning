@@ -117,3 +117,11 @@ Si une plante est existe et elle est toxique c'est à dire **y = 1**
 
 * Si le résultat de cette formule est égale à 0% cela veut dire que notre modèle est fortement invraisemblable.
     ![perceptron](images/24.png)
+
+## Problème de cette formule
+
+![perceptron](images/25.png)
+
+En pratique lorsqu'on calcule la vraisemblance des volumes importants de données on se rend compte que le résultat quasiment prèsque égal à zéro (0). Et là ça devient un problème
+
+![perceptron](images/26.png)
