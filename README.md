@@ -87,3 +87,17 @@ En machine Learning une fonction coût(Loss Function), c'est une fonction qui pe
 Dans notre cas, c'est une fonction qui calcule la différence entre y réelle et y_pred de notre modèle.
 
 ![perceptron](images/19.png)
+
+## Origine de la fonction coût(demonstration)
+
+### La Vraisemblance
+
+Elle nous indique la plausibilité du modèle vis-à-vis de vraies données.
+
+---
+**Analogie :**
+
+Une histoire est vraisemblable lorqu'elle est en accord avec des faits qui se sont vraiment déroulés
+---
+
+![perceptron](images/20.png)
