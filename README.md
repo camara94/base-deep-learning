@@ -56,3 +56,10 @@ Pour améliorer ce modèle, il sera mieu d'accompagner chaque prédiction d'une 
 
 ![perceptron](images/12.png)
 
+## Fonction sigmoïde
+
+Cette fonction qui permet d'effectuer cette action est appélée la fonction **sigmoïde(Logistique)**.
+
+Cette permet de convertir la sortie z en une probabilité a(z)
+
+![perceptron](images/13.png)
