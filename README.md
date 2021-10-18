@@ -125,3 +125,17 @@ Si une plante est existe et elle est toxique c'est à dire **y = 1**
 En pratique lorsqu'on calcule la vraisemblance des volumes importants de données on se rend compte que le résultat quasiment prèsque égal à zéro (0). Et là ça devient un problème
 
 ![perceptron](images/26.png)
+
+## Solution 
+Pour rémedier à ce problème, on applique la fonction logarithme à la formule de Bernoulli.
+Et cela nous donne un résultat plus lisible au paravant.
+
+![perceptron](images/27.png)
+
+Ce pendant, on pourrait penser que la fonction logarithme donne un autre sens à notre calcule mais non ce n'est pas le cas car la fonction logarithme est une fonction monotone croissente donc elle conserve l'ordre de nos termes.
+
+![perceptron](images/28.png)
+
+Cela signifie que lorsqu'on cherche le maximum de notre vraisemblance, il nous suffira de chercher le maximum de notre vraisemblance et comme vous pouvez le constater dans ce graphique ça retournera le même résultat. Alors par conclusion on peut utiliser le log de la vraisemblance pour continuer notre calcule.
+
+![perceptron](images/29.png)
