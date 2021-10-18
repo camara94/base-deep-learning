@@ -22,3 +22,14 @@ En répresentant les résultat un graphique, on constate que ces plantes régrou
 On peut donc développer un modèle capable de prédire à quelle classe appartient une future plante en se basant sur cette droite appélé la frontière de décision.
 
 ![perceptron](images/4.png)
+
+### Modèle Lineare
+Pour développer ce modèle, il va falloir l'équation de cette droite.
+
+Pour ça, nous allons développer un modèle lineaire en fournissant nos variables x1 et x2 à un neurones en multipliant chaque entrer du neurones par un poids w dans ce neurone, on va  également faire passer un coefficient complementaire b qu'on appelle le biais.
+
+![perceptron](images/5.png)
+
+De retour sur notre graphique, on peut colorer les régions où cette fonction nous retourne une valeur positive z>0 et les régions où elle nous retourne une valeur négative z<0.
+
+![perceptron](images/6.png)
