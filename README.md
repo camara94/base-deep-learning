@@ -74,3 +74,9 @@ Cette permet de convertir la sortie z en une probabilité a(z)
 ![perceptron](images/16.png)
 
 ![perceptron](images/17.png)
+
+## Résumé
+
+Pour résumer tout ce qu'on vient de voir, tout ce qui se trouve à l'intérieur d'un réseau de neurone (z = w1 * x1 + w2 * x2 + b), suivi d'une fonction d'activation a(z) = 1 / 1 + e<sup>-z</sup> qui nous retourne une probabilité suivant la loi de Bernoulli.
+
+![perceptron](images/18.png)
