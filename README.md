@@ -80,3 +80,10 @@ Cette permet de convertir la sortie z en une probabilité a(z)
 Pour résumer tout ce qu'on vient de voir, tout ce qui se trouve à l'intérieur d'un réseau de neurone (z = w1 * x1 + w2 * x2 + b), suivi d'une fonction d'activation a(z) = 1 / 1 + e<sup>-z</sup> qui nous retourne une probabilité suivant la loi de Bernoulli.
 
 ![perceptron](images/18.png)
+
+## Fonction Coût (MAXIUM DE VRAISEMBLANCE)
+En machine Learning une fonction coût(Loss Function), c'est une fonction qui permet de quantifier les **erreurs effctuées** par un modèle. 
+
+Dans notre cas, c'est une fonction qui calcule la différence entre y réelle et y_pred de notre modèle.
+
+![perceptron](images/19.png)
