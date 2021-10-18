@@ -33,3 +33,13 @@ Pour ça, nous allons développer un modèle lineaire en fournissant nos variabl
 De retour sur notre graphique, on peut colorer les régions où cette fonction nous retourne une valeur positive z>0 et les régions où elle nous retourne une valeur négative z<0.
 
 ![perceptron](images/6.png)
+
+### Reglage des paramètre
+Du coup pour prédire à quelle classe appartient une plante il va falloir  régler les paramètre w et b de façon à mieux séparer nos deux classes.
+
+![perceptron](images/7.png)
+
+![perceptron](images/8.png)
+
+C'est ainsi que fonction un perceptron, le premier neurone de l'histoire de Deep Learning.
+
