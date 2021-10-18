@@ -43,3 +43,7 @@ Du coup pour prédire à quelle classe appartient une plante il va falloir  rég
 
 C'est ainsi que fonction un perceptron, le premier neurone de l'histoire de Deep Learning.
 
+## Amélioration
+Pour améliorer ce modèle, il sera mieu d'accompagner chaque prédiction d'une probabilité. Plus une plante sera éloingnée de la frontière de décision plus il sera évident qu'elle appartienne à sa classe.
+
+![perceptron](images/9.png)
