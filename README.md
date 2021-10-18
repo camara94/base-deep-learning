@@ -69,3 +69,8 @@ Cette permet de convertir la sortie z en une probabilité a(z)
 ![perceptron](images/14.png)
 
 ![perceptron](images/15.png)
+
+## La loi de Bernoulli
+![perceptron](images/16.png)
+
+![perceptron](images/17.png)
