@@ -47,3 +47,12 @@ C'est ainsi que fonction un perceptron, le premier neurone de l'histoire de Deep
 Pour améliorer ce modèle, il sera mieu d'accompagner chaque prédiction d'une probabilité. Plus une plante sera éloingnée de la frontière de décision plus il sera évident qu'elle appartienne à sa classe.
 
 ![perceptron](images/9.png)
+
+## Fonction d'activation
+
+![perceptron](images/10.png) 
+
+![perceptron](images/11.png)
+
+![perceptron](images/12.png)
+
