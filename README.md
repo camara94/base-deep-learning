@@ -150,6 +150,12 @@ Ce résultat ressemble beaucoup au résultat de **Log Loss** à la différence d
 
 Mais ce qu'on a fait là c'est juste le calcule du log de la vraisemblance et une vraisemblance on cherche à la maximiser pour avoir le meilleur modèle possible  le modèle le plus vraisemblable or en mathématique les algorthme de maximisation n'existe pas vraiment à la place on utilise plutôt des algorithmes de minimisation
 
+## Alors
+Maintenant vous savez l'origine de notre fonction **Log Loss**
+
+![perceptron](images/34.png)
+
+
 ![perceptron](images/32.png)
 
 Mais le problème n'est pas là, car maximiser une fonction revient à la fonction -f(x), c'est pourquoi pour maximiser notre fonction on revient minimixer sa fonction négative d'où le signe moins (-) et 1/m c'est un but de normalisation de notre fonction.
