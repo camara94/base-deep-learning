@@ -63,3 +63,9 @@ Cette fonction qui permet d'effectuer cette action est appélée la fonction **s
 Cette permet de convertir la sortie z en une probabilité a(z)
 
 ![perceptron](images/13.png)
+
+## Par exemple 
+
+![perceptron](images/14.png)
+
+![perceptron](images/15.png)
