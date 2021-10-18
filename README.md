@@ -161,3 +161,37 @@ Maintenant vous savez l'origine de notre fonction **Log Loss**
 Mais le problème n'est pas là, car maximiser une fonction revient à la fonction -f(x), c'est pourquoi pour maximiser notre fonction on revient minimixer sa fonction négative d'où le signe moins (-) et 1/m c'est un but de normalisation de notre fonction.
 
 ![perceptron](images/33.png)
+
+## Algorithme de la DESCENTE DE GRADIENT
+
+La Descente de gradient est l'un des algorithmes les plus utilisés en **Machine Learning** et en **Deep Learning**.
+
+Il consite à ajuster les paramètres W et b de façon à manimiser les erreurs du modèle et, c'est à dire à **minimiser la fonction coût  (Log Loss)**.
+
+![perceptron](images/35.png)
+
+Pour ça, il faut determiner comment est ce que cette fonction varie en fonction des différents paramètres.
+
+C'est pourquoi on calcule le **Gradient** (ou la **dérivée**) de la **Fonction Coût**.
+
+![perceptron](images/36.png)
+
+* Si la dérivée est négative ça nous indique la fonction diminue quand **W** augmente qu'il va falloir donc augmenter **W** si on veut réduire nos erreurs.
+
+![perceptron](images/37.png)
+
+* Si la dérivée est positive ça nous indique la fonction augmente quand **W** augmente qu'il va falloir donc diminuer **W** si on veut réduire nos erreurs.
+  
+![perceptron](images/38.png)
+
+* Pour faire cela, on va utiliser la formule suivante:
+
+![perceptron](images/39.png)
+
+* En repétant cette formule on obtient cette figure, d'où le nom **Descente Gradient**
+
+![perceptron](images/40.png)
+  
+* Alors que ça marche il faut que notre fonction soit convexe.
+
+![perceptron](images/41.png)
