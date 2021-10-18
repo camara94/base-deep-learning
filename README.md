@@ -101,3 +101,8 @@ Une histoire est vraisemblable lorqu'elle est en accord avec des faits qui se so
 ---
 
 ![perceptron](images/20.png)
+
+## Par exemple
+Si une plante est existe et elle est toxique c'est à dire **y = 1**
+
+![perceptron](images/21.png)
