@@ -106,3 +106,14 @@ Une histoire est vraisemblable lorqu'elle est en accord avec des faits qui se so
 Si une plante est existe et elle est toxique c'est à dire **y = 1**
 
 ![perceptron](images/21.png)
+
+## La Formule de Vraisemblance
+
+![perceptron](images/22.png)
+
+* Si le résultat de cette formule est égale à 100% cela veut dire que notre modèle est vraisemblable à 100%
+  
+    ![perceptron](images/23.png)
+
+* Si le résultat de cette formule est égale à 0% cela veut dire que notre modèle est fortement invraisemblable.
+    ![perceptron](images/24.png)
